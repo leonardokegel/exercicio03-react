@@ -1,0 +1,14 @@
+import './App.css';
+
+import { TodoList } from './components/TodoList';
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Exericio 3 - Todo list</h1>
+      <TodoList />
+    </div>
+  );
+}
+
+export default App;
